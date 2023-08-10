@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Web Design Lekhan | Responsive Portfolio</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav__content">
+        <div class="logo"><a href="#">Lekhna Puhania</a></div>
+        <label for="check" class="checkbox">
+          <i class="ri-menu-line"></i>
+        </label>
+        <input type="checkbox" name="check" id="check" />
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Resume</a></li>
+          <li><a href="#">Portfolio</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <section class="section">
+      <div class="section__container">
+        <div class="content">
+          <p class="subtitle">HELLO</p>
+          <h1 class="title">
+            I'm <span>Lekhan<br />a</span> Student, Part-time developer, Gamer
+          </h1>
+          <p class="description">
+            Hi there, my name is Lekhan Puhania and I'm currently pursuing Computer Programming and Analysis at Georgian College in Barrie, Canada. Originally from India, I bring a unique perspective to my work as a part-time web developer. I specialize in HTML, CSS, and JavaScript to create stunning websites that are both visually appealing and highly functional.
+            Aside from my studies and work, I'm also an avid gamer. I love exploring new virtual worlds and taking on new challenges. When I'm not behind my computer screen, I enjoy staying active with physical activities like running or playing sports.
+            I believe that my diverse interests and skills make me a well-rounded and dynamic individual. I'm dedicated to both my studies and my hobbies, which demonstrates my strong work ethic and passion for learning. If you're looking for a talented web developer or just someone to join you on your next gaming adventure, I'm the perfect choice.
+          </p>
+          <div class="action__btns">
+            <button class="hire__me">Hire Me</button>
+            <button class="portfolio">Portfolio</button>
+          </div>
+        </div>
+        <div class="image">
+          <img src="images/IMG_6907.jpeg" alt="profile" />
+        </div>
+      </div>
+    </section>
+    <section class="achievements">
+      <div class="section__container">
+        <div class="content">
+          <p class="subtitle">ACHIEVEMENTS</p>
+          <h2 class="title">
+            My Projects
+          </h2>
+          <div class="project">
+            <a href="https://stalwart-travesseiro-4d65a4.netlify.app"><h3>Shoes website</h3></a>
+            <p>Check out my college assignment – SoleStride Sneakers. Explore a range of trendy and comfortable sneakers that blend fashion and functionality seamlessly.</p>
+          </div>
+          <div class="project">
+            <a href="https://dulcet-parfait-1630be.netlify.app/"><h3>Hardware Store</h3></a>
+            <p>This was my final project in 1st semester of HTML,CSS & JS course in which i have make an layout of an hardware store</p>
+          </div>
+          <!-- Add more project placeholders as needed -->
+        </div>
+      </div>
+    </section>
+    <section class="contact">
+      <div class="contactform">
+        <form>
+            <h1>Contact for work/general enquiries</h1>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Name</label>
+              <input type="name" class="form-control" id="clientemail" aria-describedby="emailHelp">
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="clientemail" aria-describedby="emailHelp">
+              <div id="emailHelp" class="form-text">We'll never share your email & phone  with anyone else.</div>
+            </div>
+            <div class="mb-3">
+                <label for="clientphone" class="form-label">Enquiry</label>
+                <input type="phone" class="form-control" id="clientphone">
+              </div>
+            <div class="mb-3" id= "form-check">
+              <input type="checkbox" class="form-check-input" id="isclient">
+              <label class="form-check-label" for="isclient">We want you to work on a project with us</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+      </div>
+    </section>
+  </body>
+</html>
